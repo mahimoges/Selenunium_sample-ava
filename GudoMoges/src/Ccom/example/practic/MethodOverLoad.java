@@ -1,0 +1,31 @@
+package Ccom.example.practic;
+/*
+ * method over lodder only happenes in same class
+ *
+ */
+class DispOverLoad{
+	public void disp(char c) {
+		System.out.println(c);
+		
+		
+		/*
+		 * method OverLoading
+		 *
+		 */
+		public void disp(char c, int num) {System.out.println(c + ""+ num);
+		main
+		
+	
+		
+	}
+}
+public class MethodOverLoad {public static void main(string[]args) {
+	DisplayOverLoad Obj = new DisplayOverLoad();
+	obj.disp('a');
+	obj.disp('a',b);
+	
+}
+	
+}
+
+}

@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * @author Mahi
+ *
+ */
+package StaticClass;

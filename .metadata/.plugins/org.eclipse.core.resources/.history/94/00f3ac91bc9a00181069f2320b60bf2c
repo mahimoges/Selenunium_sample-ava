@@ -1,0 +1,13 @@
+
+public class New {
+
+	public static void main(String[] args) {
+		
+		Double myAge = 32.25;
+		System.out.println(myAge);
+				
+		// TODO Auto-generated method stub
+
+	}
+
+}

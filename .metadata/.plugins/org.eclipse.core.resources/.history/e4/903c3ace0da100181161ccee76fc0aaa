@@ -1,0 +1,31 @@
+package com.selenium.test.selenium_java;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+public class DoorDash {
+	WebDriverConfig driver = new WebDriverConfig();
+	 WebDriver chrome = driver.getChrome();
+@Test
+	 public void searchWitCssPath() {
+	 
+		 chrome.navigate().to("http://doordach.com");
+		 chrome.findElement(By.xpath("/html/body/div[1]/div/div[1]/div/div[5]/div/div/div[1]/div[2]/div/div[2]/div[1]/div/div/div/label/div/input")).sendKeys("chipotly");
+		
+		 chrome.manage().timeouts().implicitlyWait(100000, null);
+	 }
+	
+	
+@AfterTest
+
+public void closeTest() {
+chrome.close();
+
+}
+}
+
+
+

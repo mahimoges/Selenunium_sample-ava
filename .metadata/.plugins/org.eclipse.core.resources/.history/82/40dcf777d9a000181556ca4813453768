@@ -1,0 +1,19 @@
+package com.selenium.test.selenium_java;
+
+import org.openqa.selenium.WebDriver;
+
+public class ClassWork2 {
+	WebDriverConfig driver = new WebDriverConfig();
+	
+	WebDriver chrome = driver.getChrome();
+
+   WebDriver firefox = driver.getFirefox();
+    
+
+}
+@Test 
+public void (){
+
+	firefox.navigate().to("htpp//:w3schools.com");
+	firefox.navigate.back();
+}

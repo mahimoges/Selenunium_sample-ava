@@ -1,0 +1,16 @@
+
+public class JavaLoopExer {
+
+	public static void main(String[] args) {
+		
+		int mahi = 0;
+		
+		while(mahi < 20);
+	
+		System.out.println(mahi);
+		mahi = mahi = 5;
+		// TODO Auto-generated method stub
+
+	}
+
+}

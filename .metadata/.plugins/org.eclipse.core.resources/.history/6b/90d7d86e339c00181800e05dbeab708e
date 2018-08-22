@@ -1,0 +1,23 @@
+
+public class Class {
+
+	public static void main(String[] args) {
+		
+		
+		
+						 
+
+		 
+		 
+	int mahi = 20;
+	
+	while(mahi < 20);
+	System.out.println("hi mahi" + mahi);
+	mahi++;
+		
+		// TODO Auto-generated method stub
+	
+
+	}
+
+}

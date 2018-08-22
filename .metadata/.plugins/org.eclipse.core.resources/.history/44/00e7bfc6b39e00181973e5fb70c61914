@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class Practice {
+	
+
+	public static void main(String[] args) {
+	
+		Scanner women = new Scanner(System.in);
+		
+		
+		System.out.println("instert information" );
+	
+		
+		
+		String mahi  = women.next();
+		
+		
+	
+		
+		String last_name ;
+		String name;
+		name = mahi;
+		System.out.println(name);
+		String gudo = women.next();
+		
+
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	}
+		
+	
+		
+		
+		
+	}	
+	
+	
+	
+		
+	
+

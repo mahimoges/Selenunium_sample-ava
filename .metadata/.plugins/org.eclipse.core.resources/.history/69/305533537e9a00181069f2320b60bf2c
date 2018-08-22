@@ -1,0 +1,26 @@
+
+public class SampleTest {
+	// data_type name of vairable = value;
+	//city_id numeric
+	int num = 10;
+	long num1 = 300000000;
+	float num Float = 12.99f;
+	double numduble = 12.7897987;
+	string str = "this is jave class"
+			char c = 'A';
+	
+			
+	
+	
+	public static void main(String[] args) {
+		System.out.println("Test");
+		
+		/*
+		 * create or replace function name
+		 * declire to provde data types
+		 */
+		
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.selenium.test.selenium_java;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class CSSSelectors {
+	WebDriverConfig driver = new WebDriverConfig();
+	 WebDriver firefox = driver.getFirefox();
+	 public void searchWitCssPath() {
+	 
+		 firefox.navigate().to("htpp//:google.com");
+		 firefox.findElement(By.cssSelector("#1st-ib"));
+		 WebElement searchbox.sendKeys("CSS Selectors");
+	 }
+	
+	
+@After Test
+
+public void close Test() {
+	firefox.close();
+}
+}

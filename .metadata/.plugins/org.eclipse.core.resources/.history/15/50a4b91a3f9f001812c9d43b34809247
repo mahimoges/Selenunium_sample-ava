@@ -1,0 +1,6 @@
+package Ccom.example.practic;
+
+public class ThrowSample {
+	static void checkEligibility() {}
+
+}

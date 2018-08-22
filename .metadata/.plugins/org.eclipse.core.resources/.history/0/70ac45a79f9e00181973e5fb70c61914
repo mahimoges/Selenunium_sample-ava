@@ -1,0 +1,26 @@
+
+public class Practice {
+	
+
+	public static void main(String[] args) {
+		aircraft ethiopi = new aircraft();
+		System.out.println("no" + ethiopi.fule);
+		System.out.println( + ethiopi.crue);
+		ethiopi.crue = 10;
+		ethiopi.crue = 11;
+		ethiopi.fule = 13;
+		ethiopi.passangrs = 14;
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
+class aircraft {
+	int fule ;
+	int passangrs;
+	int age ;
+
+	int crue;
+	
+}

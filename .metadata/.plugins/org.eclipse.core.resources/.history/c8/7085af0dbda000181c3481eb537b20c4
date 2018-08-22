@@ -1,0 +1,8 @@
+package com.selenium.test.selenium_java;
+
+public class PartOne {
+	WevDriverConfig drive = new WebDriverConfig();
+			
+			WebvDriver chrome = driver.geetChrome();
+	
+}			WebvDriver  firefox = driver.geetFirefox();

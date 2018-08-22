@@ -1,0 +1,16 @@
+package Practice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class practic1 {							//
+	public static void main(String[] args) {
+		WebDriver driver = new FirefoxDriver();//WebDriver is a tool for testing web applications across different browsers using different programming languages
+		{
+		
+			driver.get("https://facebook.com/");
+		}
+	}
+	
+
+}

@@ -1,0 +1,16 @@
+
+public class dayone {
+	
+/*
+ *  this is my first program
+ */
+	
+	public static void main(String[] args) {
+	boolean lili = "true";
+	System.out.println(lili);
+     
+
+   
+	}
+
+}

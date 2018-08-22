@@ -1,0 +1,25 @@
+
+public class dayone {
+	
+/*
+ *  this is my first program
+ */
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     System.out.println("hello world");
+     System.out.println("mahi moges");
+     System.out.println("amanu");
+     
+     int num;
+     num = 20;
+     int num1;
+     int num2;
+     System.out.println("20");
+     
+     
+     
+     System.out.println("20");
+	}
+
+}

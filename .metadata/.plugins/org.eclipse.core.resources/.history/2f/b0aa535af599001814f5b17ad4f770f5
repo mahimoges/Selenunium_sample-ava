@@ -1,0 +1,26 @@
+
+public class SampleDemo {
+	public static void main(String[] args)
+	{
+		String a = "mahi";
+		String b = "moges";
+		String x = "hawi";
+		sring y = "degefa";
+				
+				
+		int num = 19;
+		int num1 =1;
+		System.out.println("mahimoges");
+		System.out.println(num + num1);
+		System.out.println(a+b);
+		System.out.println(x+y);
+		
+		
+		
+
+		
+	}
+	
+	
+
+}

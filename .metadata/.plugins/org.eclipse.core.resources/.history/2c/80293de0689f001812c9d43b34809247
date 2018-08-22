@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Class {
+
+	public static void main(String[] args) {
+		
+		Scanner mahi = new Scanner(System.in);
+		System.out.println("inter first number");
+		int a = mahi.nextInt();
+		System.out.println("inter second number");
+		int b = mahi.nextIn();
+		
+		
+		
+		
+		
+		
+						 
+
+		 
+		 
+	int mahi = 0;
+	
+	while(mahi > 20);
+	
+	System.out.println( mahi);
+	mahi++;
+		
+		// TODO Auto-generated method stub
+	
+
+	}
+
+}

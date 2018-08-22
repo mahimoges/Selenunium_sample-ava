@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class gudo {
+
+	public static void main(String[] args) {
+	
+		
+		Scanner Mahi = new Scanner(System.in);
+		System.out.println("good");
+		String mahi = Mahi.next();
+		
+		
+
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Practice {
+	
+
+	public static void main(String[] args) {
+		int mahi;
+		int tibe;
+	
+		Scanner sum = new Scanner(System.in);
+		int a = sum.nextInt();
+		
+		System.out.println("instert number" + a);
+		
+		
+		
+	}	
+	}
+	
+	
+		
+	
+

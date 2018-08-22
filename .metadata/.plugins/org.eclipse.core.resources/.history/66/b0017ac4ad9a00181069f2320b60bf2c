@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class gudo {
+
+	public static void main(String[] args) {
+	
+		
+		Scanner tibe = new Scanner(System.in);
+		System.out.println("good");
+		String mahi = tibe.next();
+		System.out.println("am fine and yot");
+		
+		
+		
+
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

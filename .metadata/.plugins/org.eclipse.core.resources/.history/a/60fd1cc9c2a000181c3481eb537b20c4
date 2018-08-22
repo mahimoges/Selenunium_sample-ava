@@ -1,0 +1,26 @@
+package com.selenium.test.selenium_java;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+public class BasicCommandsForBrowsers {
+	WebDriverConfig driver = new WebDriverConfig ();
+	WebDriver chrome = driver.getChrome();
+	@Test
+	
+	public void basicCommandTest() {
+		chrome.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		chrome.get("https://google.com");
+		
+	}
+	
+	@AfterTest
+	public void CloseTest() {
+		chrome.close();
+	}
+	
+
+}

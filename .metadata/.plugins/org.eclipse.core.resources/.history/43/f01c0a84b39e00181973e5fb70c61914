@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Practice {
+	
+
+	public static void main(String[] args) {
+	
+		Scanner sum = new Scanner(System.in);
+		
+		
+		System.out.println("instert number" );
+		String a  = sum.next();
+		String b  = sum.next();
+		String c = sum.next();
+		
+		
+		String name = a
+	;System.out.println(name);
+		String addres = b;
+		System.out.println(addres);
+		String liffe = c;
+		
+		
+	
+	
+	
+	
+	}
+		
+	
+		
+		
+		
+	}	
+	
+	
+	
+		
+	
+

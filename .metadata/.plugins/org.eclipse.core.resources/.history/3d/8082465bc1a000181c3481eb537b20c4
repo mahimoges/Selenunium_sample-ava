@@ -1,0 +1,42 @@
+package com.selenium.test.selenium_java;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class PartOne {
+	WebDriverConfig driver = new WebDriverConfig();
+			
+			WebDriver chrome = driver.getChrome();
+	
+             WebDriver firefox = driver.getFirfox();
+}
+@Test
+public void locatorsInWeb() {
+	chrome.get("HTTP://google.com");
+	webElement searchBox = chrome.findElement(By.name("q"));
+			try {
+			 thread.sleep(4000);
+			} catch(InterruptedException e) {
+				e.printstacktrace();
+			}
+}
+
+@Tast
+public void basiccommands() {
+	firefox.navigate().to("https://amazon.com");
+	firefox.navigate().refresh();
+	try {
+		Thread.sleep(5000);
+		catch(InterruptedException e) {
+			//todo auto henerated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	@After Test
+	public void close Test() {
+		chrome.quit();
+		firefox.quite(;)
+	}
+	
+}

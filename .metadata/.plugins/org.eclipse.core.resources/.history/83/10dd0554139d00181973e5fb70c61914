@@ -1,0 +1,34 @@
+class apple{
+public static void main(String[] args) {
+	mahi black = new mahi();
+	mahi red = new mahi();
+	
+}
+}
+class mahi {
+	int age;
+	int legth;
+	int wedth;
+	int ssn;
+	String address;
+	
+}
+class human {
+	
+	String name;
+	int age;
+	boolean sex;
+	String address;
+	
+	
+	
+	public static void main(String[] args) {
+		human women = new human();
+		human men = new human ();
+		
+		women.age = 32;
+		
+	}
+	
+	
+}

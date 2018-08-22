@@ -1,0 +1,25 @@
+
+
+	public static void main (string[] args) {
+		
+	}
+
+
+	
+	
+	
+	
+	class aircraft {
+		int passanger;
+		int fule;
+		int nebe;
+		double age;
+		boolean fimle;
+		
+	}
+		
+	
+		
+		
+		
+

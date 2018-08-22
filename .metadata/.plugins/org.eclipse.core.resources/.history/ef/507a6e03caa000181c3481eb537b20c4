@@ -1,0 +1,57 @@
+package Practice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+import com.selenium.test.selenium_java.WebDriverConfig;
+
+public class practic1 {							//
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mahi\\Downloads\\software\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();//WebDriver is a tool for testing web applications across different browsers using different programming languages
+		{
+		
+			driver.get("https://www.facebook.com/");
+		}
+	}
+	
+
+}
+
+//wait for 10 seconds
+//open an amazon in chrome and firefox browsers 
+// find the name or id for serch box on amazon
+//referesh the webpage
+//fined the name or id for serch box and type iphome case 
+//close the both of brosers/*
+ class Amazone {
+	void getamazon() {
+}
+	WebDriverConfig driver = new WebDriverConfig();
+	
+	WebDriver chrome = driver.getChrome();
+
+     WebDriver firefox = driver.getFirefox();
+     
+     @Test 
+     
+     public void locatorsInWeb() 
+     {
+     	chrome.get("HTTP://amazon.com");
+     	chrome.findElement(By.id("q")).getText();
+     	WebElement searchBox = chrome.findElement(By.name("q"));
+     	firefox.navigate().refresh();
+     	chrome.manage().timeouts().implicitlyWait(10, null);
+	
+}
+     @AfterTest
+ 	public void CloseTest() {
+ 		chrome.close();
+ 		firefox.close();
+ 	}
+}

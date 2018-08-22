@@ -1,0 +1,10 @@
+package com.selenium.test.selenium_java;
+import org.openqa.selenium.WebDriver;
+
+public class WebDriverConfig {
+	public WebDriver getChrome() {
+		
+		System.setProperty("Webdriver.chrome.driver", "C:\\Users\\Mahi\\Downloads\\software\\chromedriver.exe");
+	}
+
+}

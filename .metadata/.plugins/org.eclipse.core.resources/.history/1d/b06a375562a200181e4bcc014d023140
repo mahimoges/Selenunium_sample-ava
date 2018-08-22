@@ -1,0 +1,35 @@
+package com.selenium.test.selenium_java;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
+public class ClassWork3 {
+private static final String action = null;
+
+WebDriverConfig driver = new WebDriverConfig();
+	
+	WebDriver chrome = driver.getChrome();
+
+  
+   
+   @Test
+   public void rightClickTest() throws InterruptedException{
+	   chrome.get("http://artoftesting.com/sampleSiteForSelenium.html");
+	   chrome.findElement(By.id("fname")).sendKeys("mahi");
+	   chrome.findElement(By.id("idOfButton")).click();}
+	   @Test
+	   public void doubleclick() {
+	   Actions action = new Actions(chrome);
+	   WebElement doubleClick = chrome.findElement(By.id("dblClkBtn"));
+	   }
+	   @Test
+	   public void dropDown() {
+	   WebElement dropDown = chrome.findElement(By.name("Automation Testing"));
+	   Select selectDropDown = new  Select(dropDown);
+	   
+   }
+
+}

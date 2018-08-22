@@ -1,0 +1,36 @@
+
+class human {
+	
+	String name;
+	int age;
+	boolean sex;
+	String address;
+	
+
+	
+	
+	
+	
+	public static void main(String[] args) {
+		human women = new human();
+		human men = new human();
+		
+		women.age = 32;
+		
+		
+		System.out.println("Women age:" women .age);
+		
+		
+		
+	}
+	
+	
+	
+		
+		
+	
+		
+		
+		
+	}
+	

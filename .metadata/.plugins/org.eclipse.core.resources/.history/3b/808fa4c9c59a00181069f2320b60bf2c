@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class New {
+
+	public static void main(String[] args) {
+		
+		
+		 Scanner scan = new Scanner(System.in);
+		 int sum1= scan.nextInt();
+		 int sum2 = scan.nextInt();
+		 int sum = sum1 + sum2;
+		 System.out.println("substraction of these numbers;= " + Sum);
+
+				
+		// TODO Auto-generated method stub
+
+	}
+}

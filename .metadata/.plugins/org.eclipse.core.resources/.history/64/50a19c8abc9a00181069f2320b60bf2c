@@ -1,0 +1,12 @@
+
+public class New {
+
+	public static void main(String[] args) {
+		
+		int MyAge = 30;
+		System.out.println(MyAge);
+		// TODO Auto-generated method stub
+
+	}
+
+}

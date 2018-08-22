@@ -1,0 +1,21 @@
+
+public class Class2 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 	1. arithmetic
+		2. assinment 
+		3. autho-increment
+		4. logical
+		5. comparision(relational)
+		6. ternary
+		 *  JAVA operators
+		 */
+	 
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

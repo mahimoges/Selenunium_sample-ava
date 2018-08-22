@@ -1,0 +1,14 @@
+
+public class car {
+//static int num = 4; // static variable its avalable for the rest of  method
+public car (String name) {
+	System.out.println("best car" + name);
+}
+}
+
+
+public static void main(String[] args) {
+	
+	int num = 3; // local variable ; declaring it or initianlizing it. 
+	
+}

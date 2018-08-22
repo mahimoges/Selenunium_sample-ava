@@ -1,0 +1,25 @@
+package com.selenium.test.selenium_java;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+public class xpath {
+	WebDriverConfig driver = new WebDriverConfig();
+	WebDriver firefox = driver.getFirefox();
+	
+	@Test
+	
+	public void serchwithxpth(){
+		firefox.navigate().to("http://doordash.com");
+		firefox.findElement(By.xpath("/html/body/div[1]/div/div[1]/div/div[5]/div/div/div[1]/div[2]/div/div[2]/div[1]/div/div/div/label/div/input")).sendKeys("8108 Pointer Ln Manassas, VA, USA");
+		firefox.findElement(By.xpath("/html/body/div[1]/div/div[1]/div/div[5]/div/div/div[1]/div[2]/div/div[2]/div[1]/div/button")).click();
+		firefox.findElement(By.xpath("/html/body/div[1]/div/div[1]/div/div[5]/div/div/div[1]/div[2]/div/div[2]/div[1]/div/div/div/label/span/span")).click();
+        firefox.findElement(By.xpath(".Autocomplete_suggestionButton___2XsJl")).click();
+
+	}
+	
+	
+
+
+}

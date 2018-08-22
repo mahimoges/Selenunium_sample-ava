@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Practice {
+	
+
+	public static void main(String[] args) {
+		int mahi;
+		int tibe;
+	
+		
+		
+		int a = 5;
+		a = 5;
+		System.out.println("instert number" + a);
+		
+		
+		
+	}	
+	}
+	
+	
+		
+	
+

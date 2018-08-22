@@ -1,0 +1,12 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class amazon{
+	WebDriver driver =  new WebDriver
+	public static void main(String[] args) {
+		
+	}
+WebDriver driver = new FirefoxDriver();
+	driver.get("https://www.google.com/search?q=amazon&ie=utf-8&oe=utf-8&client=firefox-b-1-ab");
+	
+}

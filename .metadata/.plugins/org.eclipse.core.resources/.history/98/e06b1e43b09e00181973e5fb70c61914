@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Practice {
+	
+
+	public static void main(String[] args) {
+	
+		Scanner sum = new Scanner(System.in);
+		
+		
+		System.out.println("instert number" );
+		int a = sum.nextInt();
+		int b = sum.nextInt();
+		
+		
+		int div = a * b;
+		int add = a + b;
+		int mult = a + b;
+		
+		
+	System.out.println(div);
+	
+	}
+		
+	
+		
+		
+		
+	}	
+	
+	
+	
+		
+	
+

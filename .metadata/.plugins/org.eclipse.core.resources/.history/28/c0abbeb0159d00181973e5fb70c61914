@@ -1,0 +1,47 @@
+
+	
+}
+}
+class mahi {
+	int age;
+	int legth;
+	int wedth;
+	int ssn;
+	String address;
+	
+}
+class human {
+	
+	String name;
+	int age;
+	boolean sex;
+	String address;
+	
+
+	
+	
+	
+	
+	public static void main(String[] args) {
+		human women = new human();
+		human men = new human();
+		
+		women.age = 32;
+		women.sex = true;
+		
+		System.out.println("Women age:"+ women .age);
+		
+		
+		
+	}
+	
+	
+	
+		
+		
+	
+		
+		
+		
+	}
+	

@@ -1,0 +1,17 @@
+
+public class dayone {
+	
+/*
+ *  this is my first program
+ */
+	
+	public static void main(String[] args) {
+	
+     String fuk = "lili";
+     System.out.println(fuk);
+     
+
+   
+	}
+
+}

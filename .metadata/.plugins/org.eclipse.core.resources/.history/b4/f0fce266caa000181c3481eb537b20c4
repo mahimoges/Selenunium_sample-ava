@@ -1,0 +1,33 @@
+
+
+//wait for 10 seconds
+//open an amazon in chrome and firefox browsers 
+// find the name or id for serch box on amazon
+//referesh the webpage
+//fined the name or id for serch box and type iphome case //close the both of brosers/*
+ class Amazone {
+	void getamazon() {
+}
+	WebDriverConfig driver = new WebDriverConfig();
+	
+	WebDriver chrome = driver.getChrome();
+
+     WebDriver firefox = driver.getFirefox();
+     
+     @Test 
+     
+     public void  locatorsInWeb() 
+     {
+     	chrome.get("HTTP://amazon.com");
+     	chrome.findElement(By.id("q")).getText();
+     	WebElement searchBox = chrome.findElement(By.name("q"));
+     	firefox.navigate().refresh();
+     	chrome.manage().timeouts().implicitlyWait(10, null);
+	
+}
+     @AfterTest
+ 	public void CloseTest() {
+ 		chrome.close();
+ 		firefox.close();
+ 	}
+}

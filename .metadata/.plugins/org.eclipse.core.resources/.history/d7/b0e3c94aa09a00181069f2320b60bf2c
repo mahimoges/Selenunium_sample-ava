@@ -1,0 +1,18 @@
+
+public class dayone {
+	
+/*
+ *  this is my first program
+ */
+	
+	public static void main(String[] args) {
+	String gudo = "this is mahi and tibe";
+	System.out.println(gudo);
+	String car = "mazda 55";
+	System.out.println(car);
+     
+
+   
+	}
+
+}
